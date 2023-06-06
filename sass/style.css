@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  background-image: url(/images/Rectangle\ 31.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 230px;
+}
+header .wrapper .menu {
+  display: flex;
+  gap: 50px;
+}
+header .wrapper .menu .menu_item {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 27px;
+  cursor: pointer;
+}
+header .wrapper .btn {
+  padding: 14px 36px;
+  background-color: #c9453b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+header .wrapper .bars {
+  font-size: 30px;
+  display: none;
+  color: #000;
+  cursor: pointer;
+}
+header .texts {
+  padding-left: 218px;
+  padding-top: 208px;
+}
+header .texts .pi {
+  width: 678px;
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Gelasio";
+  line-height: 78px;
+}
+header .texts .we {
+  width: 458px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 60%;
+  margin-top: 30px;
+}
+header .texts .more {
+  padding: 18px 47px;
+  background-color: #c9453b;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.section1 .loca {
+  color: #000;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.section1 .for {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.section1 .for p {
+  width: 735px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  text-align: center;
+}
+.section1 .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.section1 .cards .card {
+  width: 360px;
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.section1 .cards .card .card1 h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 36px;
+  text-align: center;
+  padding-top: 35px;
+}
+.section1 .cards .card .card1 p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 28px;
+  text-align: center;
+  opacity: 60%;
+  padding-top: 10px;
+}
+.section1 .cards .card .card1 img {
+  width: 100%;
+}
+
+.section2 .loca2 {
+  color: #000;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.section2 .for2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.section2 .for2 p {
+  width: 735px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  text-align: center;
+}
+.section2 .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 73px;
+  margin-top: 60px;
+}
+.section2 .box .usa .statue {
+  opacity: 60%;
+}
+.section2 .box .usa .h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 36px;
+  opacity: 60%;
+  padding-top: 20px;
+}
+.section2 .box .usa .lo {
+  display: flex;
+  gap: 50px;
+  opacity: 60%;
+  padding-top: 8px;
+}
+.section2 .box .usa .for {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 24px;
+  opacity: 60%;
+  padding-top: 8px;
+}
+.section2 .box .usa .price {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+  line-height: 24px;
+  opacity: 60%;
+  padding-top: 8px;
+}
+.section2 .box .usa .statue2 {
+  opacity: 80%;
+}
+.section2 .box .usa .h3_2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 36px;
+  padding-top: 20px;
+  opacity: 80%;
+}
+.section2 .box .usa .price2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+  line-height: 24px;
+  padding-top: 8px;
+}
+.section2 .box .usa .price2 span {
+  opacity: 60%;
+}
+.section2 .box .usa .h3_3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 36px;
+  padding-top: 20px;
+}
+.section2 .box .usa .statue3 {
+  opacity: 100%;
+}
+.section2 .strelki {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+.section2 .strelki .slider {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.section2 .strelki .slider .slide {
+  width: 75px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #c9453b;
+  opacity: 10%;
+}
+.section2 .strelki .slider .slide2 {
+  width: 75px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #c9453b;
+}
+
+.section3 .loca3 {
+  color: #000;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.section3 .for3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.section3 .for3 p {
+  width: 735px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  text-align: center;
+}
+.section3 .obsh {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 56px;
+}
+.section3 .obsh .left .park {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Gelasio";
+  line-height: 32px;
+  padding-top: 35px;
+}
+.section3 .obsh .left .text {
+  width: 470px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 28px;
+  opacity: 60%;
+  padding-top: 10px;
+}
+.section3 .obsh .left .media {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  line-height: 30px;
+  padding-top: 10px;
+}
+.section3 .obsh .right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.section3 .obsh .right .first {
+  display: flex;
+  gap: 31px;
+}
+.section3 .obsh .right .first .gapla h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Gelasio";
+  padding-top: 31px;
+}
+.section3 .obsh .right .first .gapla p {
+  width: 247px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  padding-top: 10px;
+}
+.section3 .obsh .right .first .gapla h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  opacity: 80%;
+  padding-top: 10px;
+}
+.section3 .obsh .right .second {
+  display: flex;
+  gap: 31px;
+}
+.section3 .obsh .right .second .gapla h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Gelasio";
+  padding-top: 31px;
+}
+.section3 .obsh .right .second .gapla p {
+  width: 247px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  padding-top: 10px;
+}
+.section3 .obsh .right .second .gapla h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  opacity: 80%;
+  padding-top: 10px;
+}
+.section3 .obsh .right .third {
+  display: flex;
+  gap: 31px;
+}
+.section3 .obsh .right .third .gapla h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Gelasio";
+  padding-top: 31px;
+}
+.section3 .obsh .right .third .gapla p {
+  width: 247px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 29px;
+  opacity: 60%;
+  padding-top: 10px;
+}
+.section3 .obsh .right .third .gapla h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  opacity: 80%;
+  padding-top: 10px;
+}
+
+.footer {
+  background: rgba(38, 148, 153, 0.04);
+  margin-top: 140px;
+}
+.footer .info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 133px;
+  padding: 70px 257px 78px 390px;
+}
+.footer .info .contact h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "ribeye";
+}
+.footer .info .contact .us {
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 25px;
+  letter-spacing: 6%;
+}
+.footer .info .contact .gmail {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 25px;
+  letter-spacing: 6%;
+}
+.footer .info .contact img {
+  padding-top: 20px;
+  cursor: pointer;
+}
+.footer .info .servic {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .info .servic p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 6%;
+  font-family: "Roboto";
+}
+.footer .info .legal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .info .legal p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 6%;
+  font-family: "Roboto";
+}
+.footer .info .send p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  line-height: 30px;
+  letter-spacing: 6%;
+}
+.footer .info .send input {
+  padding: 14px 10px 14px 21px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.footer .info .send ::-moz-placeholder {
+  color: black;
+  font-size: 15px;
+}
+.footer .info .send ::placeholder {
+  color: black;
+  font-size: 15px;
+}
+.footer .info .send button {
+  padding: 10px 32px;
+  border: none;
+  background-color: #c9453b;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 24px;
+  letter-spacing: 6%;
+}
+.footer .info .send .btn2 {
+  padding-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 35px 5%;
+  }
+  header .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 0;
+  }
+  header .wrapper .menu {
+    display: none;
+  }
+  header .wrapper .bars {
+    display: block;
+  }
+  header .wrapper .more {
+    display: none;
+  }
+  header .wrapper .btn {
+    display: none;
+  }
+  header .texts {
+    display: grid;
+    justify-content: center;
+    padding: 0;
+    padding-top: 200px;
+  }
+  header .texts .pi {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+  header .texts .we {
+    width: 100%;
+  }
+  header .texts .more {
+    width: 50%;
+  }
+  .section3 .obsh .left {
+    width: 100%;
+  }
+  .section3 .obsh .left img {
+    width: 100%;
+  }
+  .section3 .obsh .left .text {
+    width: 100%;
+    text-align: center;
+  }
+  .section3 .obsh .left .park {
+    text-align: center;
+  }
+  .section3 .obsh .left .media {
+    text-align: center;
+  }
+  .section3 .obsh .right {
+    padding-left: 100px;
+  }
+  .section3 .obsh .right .first {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section3 .obsh .right .second {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section3 .obsh .right .third {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .info {
+    padding: 20%;
+  }
+  .section1 .for {
+    padding: 5%;
+  }
+  .section2 .for2 {
+    padding: 5%;
+  }
+  .section3 .for3 {
+    padding: 5%;
+  }
+}/*# sourceMappingURL=style.css.map */
